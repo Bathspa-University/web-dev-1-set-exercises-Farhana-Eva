@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+.video-container {
+    max-width: 80%; /* Adjust the maximum width of the video */
+}
+
+video {
+     width: 700px;
+     height: auto;
+     display: block;
+}
