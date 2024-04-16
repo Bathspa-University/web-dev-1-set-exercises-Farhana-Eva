@@ -1,0 +1,90 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire document */
+    background-color: #efede9; /* Set the background color for the body */
+    padding: 20px; /* Add padding to the body */
+    text-align: center; /* Center-align text within the body */
+}
+
+/* Heading styles */
+h1 {
+    color: #333; /* Set color for h1 elements */
+}
+
+/* Image container styles */
+.image-container {
+    margin: 20px; /* Add margin around each image container */
+    display: inline-block; /* Display image containers inline */
+}
+
+/* Filtered image styles */
+.filtered-image {
+    filter: grayscale(50%); /* Apply grayscale filter to images */
+    transition: filter 0.5s ease; /* Add transition effect for filter */
+}
+
+.filtered-image:hover {
+    filter: none; /* Remove filter on hover */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 14px; /* Set font size for paragraphs */
+    color: #666; /* Set color for paragraphs */
+}
+
+/* Specific styles for image containers */
+.image-container {
+    margin-bottom: 20px; /* Add bottom margin to image containers */
+    border: 1px solid #ccc; /* Add border to image containers */
+    padding: 10px; /* Add padding to image containers */
+}
+
+/* Styles for image containers and their child elements */
+.image-container div {
+    position: relative; /* Set position relative for inner divs */
+}
+
+.image-container img {
+    max-width: 100%; /* Set maximum width for images */
+    height: 300px; /* Set fixed height for images */
+    display: block; /* Make images block-level elements */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover container */
+}
+
+/* Text overlay styles */
+.text {
+    position: absolute; /* Set position absolute for text */
+    bottom: 10px; /* Position text at the bottom */
+    left: 10px; /* Position text at the left */
+    color: white; /* Set text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Add background color with transparency */
+    padding: 5px; /* Add padding to text */
+    margin: 0; /* Remove margin */
+    font-size: 14px; /* Set font size for text */
+}
+
+/* Filter styles for individual images */
+.img1 {
+    filter: blur(5px); /* Apply blur filter to image 1 */
+}
+
+.img2 {
+    filter: grayscale(100%); /* Apply grayscale filter to image 2 */
+}
+
+.img3 {
+    filter: sepia(100%); /* Apply sepia filter to image 3 */
+}
+
+.img4 {
+    filter: contrast(200%); /* Apply contrast filter to image 4 */
+}
+
+.img5 {
+    filter: brightness(50%); /* Apply brightness filter to image 5 */
+}
+
+.img6 {
+    filter: hue-rotate(90deg); /* Apply hue-rotate filter to image 6 */
+}
