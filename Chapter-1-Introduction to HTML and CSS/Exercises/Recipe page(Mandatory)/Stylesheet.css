@@ -1,0 +1,129 @@
+/* Define custom font-face for the 'outfit' font family */
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+  }
+  
+  /* Apply box-sizing and font-family to all elements */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+  }
+  
+  /* Set maximum width and border-radius for images */
+  img {
+    max-width: 100%;
+    border-radius: 1rem; /* Apply border-radius to all images */
+  }
+  
+  /* Set padding for unordered and ordered lists */
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  /* Set background color for the body */
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+  
+  /* Set styles for heading elements */
+  h1, h2 {
+    font-family: outfit;
+    color: hsl(14, 45%, 36%);
+    letter-spacing: 0.05rem;
+  }
+  
+  /* Set line-height and color for paragraphs and list items */
+  p, li {
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+  }
+  
+  /* Set margin-top for list items */
+  li {
+    margin-top: 0.5rem;
+  }
+  
+  /* Set styles for the container */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+  }
+  
+  /* Apply padding to all child divs of .container except the first one */
+  .container > div:not(:first-child) {
+    padding: 1.5rem; /* Apply consistent padding to all child divs except the first one */
+  }
+  
+  /* Set styles for the banner heading */
+  .banner h1 {
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 1rem;
+    font-size: 48px; /* Adjust font size within media query */
+  }
+  
+  /* Set styles for articles within the banner */
+  .banner article {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  /* Set styles for headings within articles */
+  .banner article h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Set styles for the instructions section */
+  .instructions {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+  
+  /* Set margin-top for paragraphs within the nutrition section */
+  .nutrition p {
+    margin-top: 1rem;
+  }
+  
+  /* Set styles for list items within the nutrition section */
+  .nutrition ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.5rem 0;
+  }
+  
+  /* Remove bottom border from the last list item within the nutrition section */
+  .nutrition ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Set styles for attribution text */
+  .attribution {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Set color for links within attribution */
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /* Media query for screens with a minimum width of 768px */
+  @media (min-width: 768px) {
+    /* Retain font size for banner heading */
+    .banner h1 {
+        font-size: 48px; /* Retain font size */
+    }
+  }
+  
