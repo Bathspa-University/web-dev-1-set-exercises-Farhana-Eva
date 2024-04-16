@@ -1,0 +1,62 @@
+/* Styling for the body */
+body {
+    background-color: antiquewhite; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styling for the container */
+.container {
+    text-align: center; /* Center-align text within the container */
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: xxx-large; /* Set large font size */
+    font-weight: bolder; /* Set font weight to bold */
+    font-family: cursive; /* Set font family to cursive */
+}
+
+/* Styling for the color name display */
+#colorName {
+    font-size: xxx-large; /* Set large font size */
+    margin-top: 20px; /* Add margin space on top */
+}
+
+/* Styling for the color buttons container */
+#box {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute buttons evenly */
+    margin-top: 40px; /* Add margin space on top */
+}
+
+/* Styling for the color buttons */
+.btn {
+    height: 170px; /* Set height */
+    width: 170px; /* Set width */
+    border-radius: 50%; /* Make buttons circular */
+    cursor: pointer; /* Set cursor to pointer */
+    border: 3px solid black; /* Add border */
+    background-color: white; /* Set background color */
+    margin: 10px; /* Add a margin for spacing between circles */
+}
+
+/* Styling for the replay button container */
+#re {
+    margin-top: 20px; /* Add margin space on top */
+}
+
+/* Styling for the replay button */
+#replay {
+    height: 60px; /* Set height */
+    width: 120px; /* Set width */
+    font-size: larger; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer */
+    background-color: #715965; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+}

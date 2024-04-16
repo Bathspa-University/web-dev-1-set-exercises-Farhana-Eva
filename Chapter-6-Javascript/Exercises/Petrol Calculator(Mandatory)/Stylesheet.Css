@@ -1,0 +1,61 @@
+/* Setting the font family and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the calculator container */
+.calculator {
+    background-color: #fff; /* White background */
+    width: 300px; /* Width of the calculator */
+    padding: 20px; /* Padding inside the calculator */
+    border-radius: 10px; /* Rounded corners */
+    margin: 50px auto; /* Centering the calculator horizontally with some margin at the top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Styling for input groups (label + input field) */
+.input-group {
+    margin-bottom: 15px; /* Spacing between input groups */
+}
+
+/* Styling for labels within input groups */
+.input-group label {
+    display: block; /* Displaying labels as block elements */
+    margin-bottom: 5px; /* Spacing below labels */
+}
+
+/* Styling for input fields within input groups */
+.input-group input {
+    width: 100%; /* Input fields take up full width */
+    padding: 8px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Styling for focused input fields */
+.input-group input:focus {
+    border-color: #007bff; /* Changing border color when input field is focused */
+}
+
+/* Styling for the calculate button */
+button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Removing border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Styling for button hover state */
+button:hover {
+    background-color: #0056b3; /* Changing background color on hover */
+}
+
+/* Styling for the total cost paragraph */
+#total-cost {
+    font-weight: bold; /* Bold text */
+}

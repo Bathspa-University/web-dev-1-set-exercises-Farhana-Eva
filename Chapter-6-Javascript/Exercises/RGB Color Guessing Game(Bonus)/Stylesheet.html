@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE COLOR</title>
+    <link rel="stylesheet" href="Stylesheet.css"> <!-- Linking to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>GUESS THE COLOR !!</h1> <!-- Heading for the game title -->
+        <p id="colorName">(R, G, B)</p> <!-- Placeholder for displaying the RGB color value -->
+        <div id="box"> <!-- Container for the colored buttons -->
+            <button class="btn" id="0" onclick="guess()"></button> <!-- Button for guessing the color -->
+            <button class="btn" id="1" onclick="guess()"></button> <!-- Button for guessing the color -->
+            <button class="btn" id="2" onclick="guess()"></button> <!-- Button for guessing the color -->
+        </div>
+        <div id="re"> <!-- Container for the replay button -->
+            <button id="replay" onclick="replay()">Replay</button> <!-- Button for replaying the game -->
+        </div>
+    </div>
+    <script src="JS script.js"></script> <!-- Linking to external JavaScript file -->
+</body>
+</html>
