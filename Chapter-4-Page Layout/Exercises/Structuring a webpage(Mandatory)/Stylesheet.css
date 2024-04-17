@@ -60,7 +60,6 @@ main {
 }
 .line-up-side-bar {
   height: 400px;
-  width: 200;
   background-color: #172d67; 
   padding-right: 20px;
   padding-top: 20; /* Increase the padding-top to move the blue box down */
