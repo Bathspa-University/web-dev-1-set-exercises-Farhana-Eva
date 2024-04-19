@@ -35,7 +35,7 @@ These tags might come in useful: `<header>` `<nav>` `<main>` `<section>` `<artic
 
 Imagine you have been employed to build a single-page web application that manages a study plan for the Web Development module on the Creative Computing course. Use HTML and CSS to mock-up what this application would look like, without adding any interactivity. You must include:
 
-- Wireframe (add image to the directory);
+- [Wireframe (add image to the directory);]
 - Header, Navigation menu, main content and a footer;
 - The main content must be split into two or three columns;
 - Five demo items;

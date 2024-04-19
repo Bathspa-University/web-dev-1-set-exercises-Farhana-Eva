@@ -1,0 +1,106 @@
+/* Reset CSS */
+/* Add your reset CSS here */
+
+/* Custom styles for wireframe */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    background-color:#FFC0CB;
+}
+
+/* header having h1 increasing font size  */
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: serif;
+    color: rgb(2, 0, 5); /* Adding color property to make the text purple */
+}
+
+/* Custom styles for wireframe */
+
+/* Style for navigation bar */
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9142c6;
+}
+
+/* Style for list items */
+aside ul li {
+    float: left;
+}
+
+/* Style for anchor tags */
+aside ul li a {
+    display: block;
+    color: #fff; /* Text color */
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect for anchor tags */
+aside ul li a:hover {
+    background-color: #7c3aa6; /* Background color on hover */
+}
+
+/* Style for the Settings list item */
+aside ul li.settings {
+    float: right;
+}
+
+ 
+
+/* Setting color for paragraph */
+p {
+    color: black; /* Changing color to black */
+}
+
+section, aside {
+    margin-top: 10px;
+    padding: 20px; /* Added padding */
+    border-radius: 10px; /* Added border radius */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding:10px; /* Added padding */
+    border-radius: 0; /* Added border radius */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: 	#C71585;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; /* Align sections in one line */
+    margin-top: 10px; /* Added margin between header and sections */
+}
+
+section {
+    width: calc(31.33% - 20px); /* Adjusting width of sections */
+    padding: 20px; /* Adding padding for inner content */
+    border-radius: 10px; /* Adding border radius */
+}
